@@ -1,0 +1,120 @@
+<html>
+{% load static %}
+<head>
+<title>Bitcart</title>
+</head>
+<body bgcolor="#F1F3F6">
+<form action="register" method="POST">
+{% csrf_token %}
+<table border="0" width="100%" bgcolor="#2874FO">
+<tr>
+<th align="center"><img src="{% static 'images/bitkart.png'%}" height="40" width="40"></th>
+<th align="center"><input type="text" placeholder="Search for products, brands and more"></th>
+<th align="right"><a href="login">login & signup</th>
+
+
+<th><font color="white">More</font></th>
+<th align="center"><img src="{% static 'images/logo.jpg'%}" height="40" width="40"></th>
+
+</tr>
+</table>
+
+<table border="3" width="100%" bgcolor="white" height="8%">
+<tr>
+<th width="12.5%">Electronics</th>
+<th width="12.5%">TV's & Appliances</th>
+
+<th width="12.5%">Men's Collection</th>
+<th width="12.5%">Women</th>
+<th width="12.5%">Kids</th>
+<th width="12.5%">Home & Furniture</th>
+<th width="12.5%">Sports, Books & More</th>
+</tr>
+</table>
+<img src="{% static 'images/offer.png'%}" width="100%" height="46%">
+
+<br><br>
+<h2>School Bags for kids</h2>
+<h3>Also view traveller bags</h3>
+<table border="3" width="100%" bgcolor="white">
+<tr>
+
+<th align="center"><img src="{% static 'images/wildcraft.jpg'%}" width="60%">
+<figcaption align="center">wildcraft bag
+<br><a href="https://www.flipkart.com/wildcraft-daredevil-43-l-laptop-backpack/p/itmfejkcgrbkzfcr?pid=BKPFEJKC9EPKBMZG&lid=LSTBKPFEJKC9EPKBMZGTBKM0L&marketplace=FLIPKART&q=wildcraft+bags&store=reh&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=f074d179-f8d8-41c4-b7c3-54a45a6bc951.BKPFEJKC9EPKBMZG.SEARCH&ppt=sp&ppn=sp&ssid=d2c19nwfow0000001628160338954&qH=7c1f19cd47654a64"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/pazzo.jpg'%}" width="60%">
+<figcaption align="center">Pazzo blueblack
+<br><a href="https://www.flipkart.com/pazzo-polo-28-l-backpack/p/itmf3um3vfkcvhaz?pid=BKPEZDYYWSY8GSRE&lid=LSTBKPEZDYYWSY8GSREEUXQLR&marketplace=FLIPKART&q=pazzo+blueblack++bags&store=reh%2F4d7%2Fak9&srno=s_1_5&otracker=search&otracker1=search&fm=SEARCH&iid=d8225140-336d-4fc2-a3a1-d428aa93b8b3.BKPEZDYYWSY8GSRE.SEARCH&ppt=sp&ppn=sp&ssid=mxx7lxrym80000001628160636893&qH=4aed1ea83e074225">More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/skybags.jpg'%}" width="60%">
+<figcaption align="center"> Skybags
+<br><a href="https://www.flipkart.com/skybags-skater-03-laptop-30-l-backpack/p/itm36c51e739d86c?pid=BKPFZDKXU8DQX7HH&lid=LSTBKPFZDKXU8DQX7HHG8ILFN&marketplace=FLIPKART&q=skybags+&store=reh&srno=s_1_5&otracker=search&otracker1=search&fm=SEARCH&iid=4d7f5bf9-41e3-472e-ae22-2615f8b5580d.BKPFZDKXU8DQX7HH.SEARCH&ppt=sp&ppn=sp&ssid=ka76gqofy80000001628160858492&qH=fd2e60058ee215ba">More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/american.jpg'%}" width="60%">
+<figcaption align="center">American tourister bag
+<br><a href="https://www.flipkart.com/american-tourister-spin-laptop-backpack-02-navy-29-l/p/itmfgk65hduv2mfv?pid=BKPFGK45HEVXHQZT&lid=LSTBKPFGK45HEVXHQZT62GP6Z&marketplace=FLIPKART&q=american+tourister+school+bags&store=reh%2F4d7%2Fak9&srno=s_1_7&otracker=search&otracker1=search&fm=SEARCH&iid=d02076ad-09e5-44b3-a687-29840ee6b511.BKPFGK45HEVXHQZT.SEARCH&ppt=sp&ppn=sp&ssid=donozdm3b40000001628161059514&qH=136b9bb80edb558b">More Details</figcaption></th></a>
+</tr>
+</table>
+<br>
+<br>
+<h2>Sports Shoes</h2>
+<table border="3" width="100%" bgcolor="white">
+<tr>
+<th align="center"><img src="{% static 'images/woodland.jpeg'%}" width="60%">
+<figcaption align="center">woodland shoes
+<br><a href="https://www.flipkart.com/curbs-genuine-leather-dms-army-commando-police-tsf-huck-boots-shoes-boots-men/p/itm99a36534f89a1?pid=SHOGFZJ88H494NDQ&lid=LSTSHOGFZJ88H494NDQZCLXRE&marketplace=FLIPKART&q=black+woodland+shoes&store=osp%2Fcil%2Fe1f&srno=s_1_30&otracker=search&otracker1=search&fm=SEARCH&iid=a3443e29-56d6-4f28-be13-b3af4151a791.SHOGFZJ88H494NDQ.SEARCH&ppt=sp&ppn=sp&ssid=51rehiz9cw0000001628161168987&qH=6688cbffab1c3950"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/crocs.jpg'%}" width="60%">
+<figcaption align="center">crocs
+<br> <a href="https://www.flipkart.com/crocs-men-black-sandals/p/itm5998c0fbb0a40?pid=SNDFV6GFGGE5RN3M&lid=LSTSNDFV6GFGGE5RN3MMCMCOA&marketplace=FLIPKART&q=crocs&store=osp&srno=s_1_6&otracker=search&otracker1=search&fm=SEARCH&iid=555d302d-1490-4d93-9f9d-fab46fb9f903.SNDFV6GFGGE5RN3M.SEARCH&ppt=sp&ppn=sp&ssid=vsekvx4zsw0000001628161323832&qH=288311fdda8a29ae">More Details</figcaption></th></a>
+<th align="center"><img src="{% static 'images/red.jpeg'%}" width="80%">
+<figcaption align="center">Redtape shoes
+<br><a href="https://www.flipkart.com/red-tape-casuals-men/p/itmf86ygar7dvwg2?pid=SHOFPH96PNVPX7K3&lid=LSTSHOFPH96PNVPX7K3BAXDNC&marketplace=FLIPKART&q=redtape+shoes&store=osp&srno=s_1_16&otracker=search&otracker1=search&fm=SEARCH&iid=en_6f67%2BOiIvrIGuv9PPGN3klIVPqDqtngMFnsDoafnC%2Fe4RNUSkAqomincjG1lnbJFbka8qYazoySPfq0HnE%2BMIw%3D%3D&ppt=sp&ppn=sp&ssid=33bb75t3og0000001628161399178&qH=54658c034c753e51">More Details</figcaption></th></a>
+<th align="center"><img src="{% static 'images/sparx.jpeg'%}" width="60%">
+<figcaption align="center">Sparx shoes
+<br><a href="https://www.flipkart.com/sparx-sm-663-running-shoes-men/p/itmcf897240da29a?pid=SHOG4FKMZE7URYYA&lid=LSTSHOG4FKMZE7URYYASRGHGJ&marketplace=FLIPKART&q=sparx+shoes&store=osp&srno=s_1_23&otracker=search&otracker1=search&fm=SEARCH&iid=51d3f045-c675-46b1-ae67-56129394e1e6.SHOG4FKMZE7URYYA.SEARCH&ppt=sp&ppn=sp&ssid=d08r4hgxz40000001628161471409&qH=0aab28f1393b1ed9">More Details</figcaption></th></a>
+
+</tr>
+</table>
+<br>
+<br>
+<h2>Mobiles</h2>
+<table border="3" width="100%" bgcolor="white">
+<tr>
+<th align="center"><img src="{% static 'images/s9.jpg'%}" width="60%">
+<figcaption align="center">Samsung s9
+<br><a href="https://www.flipkart.com/samsung-galaxy-s9-midnight-black-64-gb/p/itmf33a69rpszgzn?pid=MOBF2VWVBGCT5QQN&lid=LSTMOBF2VWVBGCT5QQN0ZJFUP&marketplace=FLIPKART&q=samsung+s9&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=6d8f1ed5-2a27-4e95-8102-0079d77c8d05.MOBF2VWVBGCT5QQN.SEARCH&ppt=sp&ppn=sp&ssid=h2wgmwh6cw0000001628163207425&qH=19108ff20d28ba43"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/k20 pro.jpg'%}" width="60%">
+<figcaption align="center">Redmi K20 Pro
+<br><a href="https://www.flipkart.com/redmi-k20-pro-carbon-black-128-gb/p/itmfgfjtdjkzgyyr?pid=MOBFG7UYMCBRSQZ8&lid=LSTMOBFG7UYMCBRSQZ8MBHPYK&marketplace=FLIPKART&q=redmi+k20+pro&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=SEARCH&iid=54eb8223-8d95-4c76-8d96-9959c5ffe20a.MOBFG7UYMCBRSQZ8.SEARCH&ppt=pp&ppn=pp&ssid=71kjpbv1ls0000001628163314470&qH=0b2f308098dbede3"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/x3.jpg'%}" width="60%">
+<figcaption align="center">Realme X3
+<br><a href="https://www.flipkart.com/realme-x3-glacier-blue-128-gb/p/itm325a6e0c17b0a?pid=MOBFSS3QABH9YKVE&lid=LSTMOBFSS3QABH9YKVE40F8K4&marketplace=FLIPKART&q=realme+x3&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=SEARCH&iid=a70c2455-0142-4d2c-b3cb-405d603cac91.MOBFSS3QABH9YKVE.SEARCH&ppt=pp&ppn=pp&ssid=r9bmrsggog0000001628163380195&qH=1ecb853d8732a809"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/7s.jpg'%}" width="60%">
+<figcaption align="center">Apple 7S
+<br><a href="https://www.flipkart.com/apple-iphone-7-gold-32-gb/p/itmen6daf99nhhjz?pid=MOBEMK62HZHC6TFU&lid=LSTMOBEMK62HZHC6TFUZMLPAM&marketplace=FLIPKART&q=apple+7s&store=tyy&srno=s_1_10&otracker=search&otracker1=search&fm=SEARCH&iid=5d085371-3730-4f88-b212-8b9ad87ac6cc.MOBEMK62HZHC6TFU.SEARCH&ppt=sp&ppn=sp&ssid=qbf7yl7xps0000001628163447069&qH=9d62b7a6ce7f318e">More Details</figcaption></th></a>
+</tr>
+</table>
+<h2>Clothing</h2>
+<table border="3" width="100%" bgcolor="white">
+<tr>
+<th align="center"><img src="{% static 'images/polo.jpeg'%}" width="60%">
+<figcaption align="center">Polo T-Shirt
+<br><a href="https://www.flipkart.com/seven-rocks-solid-men-mandarin-collar-black-t-shirt/p/itmf8vzaep8enf2w?pid=TSHF8VHHHHK2TFBN&lid=LSTTSHF8VHHHHK2TFBNICG8UI&marketplace=FLIPKART&q=black+tshirt&store=clo%2Fash%2Fank&srno=s_1_11&otracker=search&otracker1=search&fm=SEARCH&iid=b8da7d08-e989-49e7-962b-b9664024a48c.TSHF8VHHHHK2TFBN.SEARCH&ppt=sp&ppn=sp&ssid=2oxsmvlza80000001628163881778&qH=6f2db728b44ee7f6"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/Basic.jpg'%}" width="60%">
+<figcaption align="center">Makrom Shirt
+<br><a href="https://www.flipkart.com/london-hills-solid-men-round-neck-yellow-blue-t-shirt/p/itmab4ed27c196ac?pid=TSHFSHGCNRAHP4GD&lid=LSTTSHFSHGCNRAHP4GDRCHX7E&marketplace=FLIPKART&q=yellow+tshits&store=clo%2Fash%2Fank%2Fedy&srno=s_1_5&otracker=search&otracker1=search&fm=SEARCH&iid=f3eaef2d-1ea2-458a-9640-5c353a236413.TSHFSHGCNRAHP4GD.SEARCH&ppt=sp&ppn=sp&ssid=njo5r38o8w0000001628164017042&qH=7227d56c444eb2cb"> More Details</figcaption></th></a>
+
+<th align="center"><img src="{% static 'images/AWG.jpg'%}" width="60%">
+<figcaption align="center">AWG T-Shirt
+<br><a href="https://www.flipkart.com/awg-solid-men-round-neck-multicolor-t-shirt/p/itmdb221f8e37772?pid=TSHF4PJ642ZHCDPG&lid=LSTTSHF4PJ642ZHCDPGXHDMFW&marketplace=FLIPKART&q=awg+tshirts&store=clo%2Fash%2Fank%2Fedy&srno=s_1_26&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=SEARCH&iid=bd953352-e3af-42cd-8e17-e81ad6ee2db9.TSHF4PJ642ZHCDPG.SEARCH&ppt=pp&ppn=pp&ssid=hkeu4f43eo0000001628164111701&qH=489169b72923ff49"> More Details</figcaption></th></a>
+</tr>
+</table>
+</form>
+</body>
+</html>
